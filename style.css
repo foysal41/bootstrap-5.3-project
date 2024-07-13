@@ -47,8 +47,12 @@ p{
 
 
 @media (max-width: 768px) {
-    .hero-section .btn-primary {
-        display: block;
-        margin: 0 auto;
+    .about h2 {
+        text-align: center;
+        
+    }
+    .about p {
+        text-align: justify;
+        
     }
 }
