@@ -22,10 +22,12 @@ header{
 .btn-primary:hover{
     background-color: #fff !important;
     transition: 0.85s;
+    color: #425DA9 !important;
 }
 
 .nav-link:hover{
     color: #425DA9 !important;
+
 }
 
 p{
@@ -33,7 +35,20 @@ p{
 
 }
 
-
 .blue-bg{
     background-color: #425DA9 !important;
+    color: #fff;
+}
+
+.text-primary{
+    color: #257dfd;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-section .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
 }
